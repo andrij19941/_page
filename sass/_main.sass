@@ -1,0 +1,31 @@
+@function rem($size, $default-size: 16px)
+	@return calc($size / $default-size) + rem
+body
+    background-color: #1F2682
+    padding: 140px 0
+
+    
+
+.content .content-img
+    margin-bottom: rem(50px)
+
+    
+.content .title
+    font-family: 'Roboto', sans-serif
+    font-weight: 800
+    font-size: rem(72px)
+    text-align: center
+
+.content .text 
+    font-family: 'Roboto'
+    font-weight: 400
+    font-size: rem(25px)
+    line-height: rem(40px)
+    text-align: center
+.content .btn-content 
+    background: #E83890
+    border-radius: rem(12px)
+    min-width: rem(250px)
+    min-height: rem(70px)
+    line-height: rem(56px)
+   
